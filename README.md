@@ -1,6 +1,6 @@
 # trpclib
 
-Creates wrapper class for rpclib server/client to provide compile time checks on RPC stubs.
+Creates wrapper server and client wrapper classes for rpclib to provide compile time checks on RPC stubs. Based on Thrift.
 
 Given a .idl file, you can generate stubs using `gen FILE.idl`
 
