@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-  Client rpcClient(8080);
+  Client rpcClient("localhost", 8080);
   int sum = rpcClient.add(3, 5);
   int product = rpcClient.mult(2, 4);
 
